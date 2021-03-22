@@ -19,5 +19,5 @@ first_name = player[:player.find(" ")]
 last_name_len = len(player)-player.find(" ")-1
 last_name = player[-last_name_len:]
 name_short = first_name[:1]+". "+last_name
-chant = first_name+"!"+(" "+first_name+"!")*(len(first_name)-1)
+chant = first_name+"!"+(" "+first_name+"!")*(len(first_name)-1) #lekker voor de sfeer
 good_chant = chant[len(chant)-1] != " "
