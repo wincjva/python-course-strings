@@ -14,7 +14,7 @@ scorers = gullit + " " + str(goal_0)+", "+basten + " " + str(goal_1)
 report = f"""{gullit} scored in the {goal_0}nd minute
 {basten} scored in the {goal_1}th minute"""
 
-player = "Berry van Aerle"
+player = "Berry van Aerle" # PSV
 first_name = player[:player.find(" ")]
 last_name_len = len(player)-player.find(" ")-1
 last_name = player[-last_name_len:]
